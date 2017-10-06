@@ -1,0 +1,10 @@
+switch alerts to modals
+clean up tt files
+clear out redundant commented files
+organize/clean using statements
+data cleanup
+fix css names camelcase
+clean non included files
+
+prior zip
+delete js, js.map from angular 2

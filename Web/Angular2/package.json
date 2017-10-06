@@ -1,0 +1,34 @@
+{
+  "name": "recipes",
+  "version": "1.0.0",
+  "scripts": {
+    "BeforeBuild": "npm prune & npm install",
+    "AfterBuild": ""
+  },
+  "private": true,
+  "devDependencies": {
+    "@types/node": "6.0.63",
+    "@types/jasmine": "2.5.41",
+    "@types/core-js": "0.9.35"
+  },
+  "dependencies": {
+    "@angular/common": "4.2.4",
+    "@angular/compiler": "4.2.4",
+    "@angular/core": "4.2.4",
+    "@angular/forms": "4.2.4",
+    "@angular/http": "4.2.4",
+    "@angular/platform-browser": "4.2.4",
+    "@angular/platform-browser-dynamic": "4.2.4",
+    "@angular/router": "4.2.4",
+    "@angular/upgrade": "4.2.4",
+    "angular-in-memory-web-api": "0.3.2",
+    "bootstrap": "3.3.7",
+    "core-js": "2.4.1",
+    "moment": "^2.17.0",
+    "pajama": "0.1.59",
+    "reflect-metadata": "^0.1.8",
+    "rxjs": "5.4.1",
+    "systemjs": "0.20.14",
+    "zone.js": "0.8.12"
+  }
+}
